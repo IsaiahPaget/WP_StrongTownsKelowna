@@ -18,3 +18,5 @@ function blocks_exampleblock_block_init() {
 	/*register_block_type( __DIR__ . "/build/exampleblocktwo" );*/
 }
 add_action( 'init', 'blocks_exampleblock_block_init' );
+
+add_theme_support('post-thumbnails');
