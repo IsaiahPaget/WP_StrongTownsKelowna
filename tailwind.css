@@ -3,3 +3,9 @@
 *
 */
 @import "tailwindcss";
+
+@theme {
+	--color-blue: #a6c6ec;
+	--color-blue-dark: #0d2341;
+	--color-gold: #ffb448;
+}
